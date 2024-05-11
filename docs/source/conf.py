@@ -16,6 +16,7 @@ author = "Frank P. FAN"
 extensions = [
     "sphinx.ext.duration",
     "sphinx.ext.mathjax",
+    "sphinx.ext.githubpages",
 ]
 
 templates_path = ["_templates"]
