@@ -1,5 +1,0 @@
-*.rst linguist-detectable=true
-*.md linguist-detectable=true
-
-*.py eol=crlf
-
