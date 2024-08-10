@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -42,12 +48,15 @@ jobs:
         run: python3 -m pip install -r ./requirements.txt
 
       - name: Make HTML
+        id: build
         run: make html
         working-directory: ./docs
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/build/html
+          path: .docs/build/html
+      
+      - id: deployment
+        name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
