@@ -34,6 +34,11 @@ source_suffix = {
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "pydata_sphinx_theme"
+html_theme = "shibuya"
 html_static_path = ["_static"]
 html_logo = "_static/profile.png"
+
+html_theme_options = {
+    "color_mode": "dark",
+    "accent_color": "indigo",
+}
