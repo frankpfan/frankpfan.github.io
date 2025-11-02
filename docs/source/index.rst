@@ -16,13 +16,8 @@ Here is my pages.  Welcome!
 
 There is few things here though.
 
-小文章
-------
-
 .. toctree::
-   :glob:
-
-   p/*
+   :maxdepth: 2
 
 .. Indices and tables
 .. ==================

@@ -5,5 +5,6 @@
 
 .. toctree ::
     :glob:
+    :titlesonly:
     
     *
