@@ -20,7 +20,7 @@ There is few things here though.
    :maxdepth: 2
    :glob:
 
-   p/
+   p/index
 
 .. Indices and tables
 .. ==================
