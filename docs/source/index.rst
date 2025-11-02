@@ -16,9 +16,14 @@ Here is my pages.  Welcome!
 
 There is few things here though.
 
+小文章
+------
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
+
+   p/*
 
 .. Indices and tables
 .. ==================
