@@ -42,8 +42,10 @@ html_theme_options = {
     "color_mode": "dark",
     "accent_color": "indigo",
     "nav_links": [
-        "title": "小文章",
-        "url": "p",
+        {
+            "title": "小文章",
+            "url": "p",
+        },
     ]
 }
 
