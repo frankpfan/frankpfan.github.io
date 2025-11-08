@@ -44,7 +44,7 @@ html_theme_options = {
     "nav_links": [
         {
             "title": "小文章",
-            "url": "p",
+            "url": "p/index",
         },
     ]
 }
