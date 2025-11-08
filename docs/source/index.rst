@@ -5,10 +5,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Frank P. Fan's Space!
-================================
+Welcome to P. Fan's Space!
+==========================
 
-这里是 Frank Fan 的页面.  欢迎!
+这里是我的页面.  欢迎!
 
 Here is my pages.  Welcome!
 

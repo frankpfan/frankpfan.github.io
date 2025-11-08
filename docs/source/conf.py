@@ -41,4 +41,24 @@ html_logo = "_static/profile.png"
 html_theme_options = {
     "color_mode": "dark",
     "accent_color": "indigo",
+    "nav_links": [
+        "title": "小文章",
+        "url": "p",
+    ]
+}
+
+html_sidebars = {
+    "*/**": [
+        "sidebars/localtoc.html",
+        "sourcelink.html",
+        "sidebars/repo-stat.html",
+    ]
+}
+
+html_context = {
+    "source_type": "github",
+    "source_user": "frankpfan",
+    "source_repo": "frankpfan.github.io",
+    "source_version": "main",
+    "source_docs_path": "/docs/",
 }
