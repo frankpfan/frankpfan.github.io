@@ -53,7 +53,7 @@ html_sidebars = {
     "*/**": [
         "sidebars/localtoc.html",
         "sourcelink.html",
-        "sidebars/repo-stat.html",
+        "sidebars/repo-stats.html",
     ]
 }
 
