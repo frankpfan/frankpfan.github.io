@@ -30,6 +30,6 @@
 .. raw :: html
 
     <iframe src="https://www.desmos.com/calculator/ws2hyfu6d6?embed"
-        max-width="600" max-height="600"
+        width="600" height="600"
         style="border: 1px solid #ccc" frameborder=0>
     </iframe>
