@@ -17,7 +17,7 @@ extensions = [
     "sphinx.ext.duration",
     "sphinx.ext.mathjax",
     "sphinx.ext.githubpages",
-    "sphinx-design",
+    "sphinx_design",
 ]
 
 templates_path = ["_templates"]
