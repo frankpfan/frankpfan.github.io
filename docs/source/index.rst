@@ -1,12 +1,9 @@
 :layout: landing
 
-.. Frank P. Fan's Space documentation master file, created by
-   sphinx-quickstart on Tue Feb 13 20:36:02 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Created by sphinx-quickstart on Tue Feb 13 20:36:02 2024.
 
-Welcome to P. Fan's Space!
-==========================
+Welcome to Frank Fan's Space!
+=============================
 
 这里是我的页面.  欢迎!
 
@@ -16,11 +13,16 @@ Here is my pages.  Welcome!
 
 There is few things here though.
 
-.. toctree::
-   :maxdepth: 2
-   :glob:
+.. card:: 小文章
+   :link: p
 
-   p/index
+   .. toctree::
+      :maxdepth: 2
+      :glob:
+
+      p/[!i]**
+
+.. [!i] is used to ban `index`. Is there a better way to do this?
 
 .. Indices and tables
 .. ==================

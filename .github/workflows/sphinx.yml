@@ -49,7 +49,7 @@ jobs:
 
       - name: Make HTML
         id: build
-        run: make html
+        run: make dirhtml
         working-directory: ./docs
 
       - name: Upload artifact

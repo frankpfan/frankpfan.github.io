@@ -3,7 +3,7 @@
 
 存放一些杂乱的小文章，甚至可能不能算文章，只是记录.
 
-.. toctree ::
+.. toctree::
     :glob:
     :titlesonly:
     
