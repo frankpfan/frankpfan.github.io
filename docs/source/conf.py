@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Frank Fan's Space"
+project = "Frank P. Fan's Space"
 copyright = "2025, Frank P. FAN"
 author = "Frank P. FAN"
 
@@ -39,7 +39,7 @@ html_theme = "shibuya"
 html_static_path = ["_static"]
 html_logo = "_static/profile.png"
 
-html_title = "Frank Fan's Space"
+html_title = "Frank P. Fan's Space"
 
 html_theme_options = {
     "color_mode": "dark",
