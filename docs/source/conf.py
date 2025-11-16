@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Frank P. Fan's Space"
+project = "Frank Fan's Space"
 copyright = "2025, Frank P. FAN"
 author = "Frank P. FAN"
 

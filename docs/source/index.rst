@@ -21,23 +21,24 @@ Here is my pages.  Welcome!
 Contents
 --------
 
-.. grid:: 1 2 2 2
+.. grid:: 2
 
    .. grid-item-card::
+      :columns: 12 8 8 8
 
-      小文章
-      ^^^^^^
+      所有分类
+      ^^^^^^^^
       .. toctree::
-         :titlesonly:
+         :maxdepth: 2
          :glob:
 
-         总目录 <p/index>
-         p/202[5]**
+         p/index
 
    .. grid-item-card::
+      :columns: 12 4 4 4
 
-      其他杂笔
-      ^^^^^^^^
+      关于
+      ^^^^^^
 
       现在还什么都没有.
 

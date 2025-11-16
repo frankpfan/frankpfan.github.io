@@ -7,4 +7,4 @@
     :glob:
     :titlesonly:
     
-    *
+    maths/index
