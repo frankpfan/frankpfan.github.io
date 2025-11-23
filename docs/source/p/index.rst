@@ -8,3 +8,4 @@
     :titlesonly:
     
     maths/index
+    life/index
