@@ -2,14 +2,19 @@
 :content_max_width: 85%
 :description: P. Fan's Github Pages
 
-.. Created by sphinx-quickstart on Tue Feb 13 20:36:02 2024.
-
-Welcome to P. Fan's Space!
+Welcome to Cokernel Space!
 ==========================
 
-这里是我的页面.  欢迎!
+这里是我 (@frankpfan) 的余核空间.  欢迎!
 
-Here is my pages.  Welcome!
+Here is me, @frankpfan's cokernel space, that is, Github Pages,
+not a wiki page of cokernel.  Welcome!
+There, I think, should be an introduction about the concept of cokernel,
+in case you are looking for one.  I'll write one later, 
+but for now, you can check the Wikipedia page about it.
+
+这不是余核不是一个专门介绍余核的页面.  这里是我的个人博客, 也是我在 Github 上的主页.
+我将它命名为余核空间, 最开始来源于对逻辑爆炸律的喜爱.
 
 .. note::
 
@@ -41,10 +46,3 @@ Contents
       ^^^^^^
 
       现在还什么都没有.
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
